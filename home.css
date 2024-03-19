@@ -1,0 +1,454 @@
+#home {
+  display: flex;
+  min-height: calc(100vh - 91px);
+  position: relative;
+}
+
+#cta {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 5%;
+}
+
+#cta .title {
+  font-size: 4rem;
+  color: white;
+}
+
+#cta .description {
+  font-size: 1.2rem;
+  color: #ffdb58;
+}
+
+#cta_buttons {
+  display: flex;
+  gap: 24px;
+}
+
+#cta_buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+#phone_button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background-color: white;
+  padding: 8px 14px;
+  font-weight: 500;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+#phone_button button {
+  box-shadow: none;
+}
+
+.shape {
+  background-color: #333333;
+  width: 25%;
+  height: 40%;
+  position: absolute;
+  border-radius: 5% 5% 5% 5%;
+  top: 190px;
+  right: 0;
+  left: 65%;
+  z-index: 1;
+  padding: 20px;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffdb58;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #ffdb58;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s;
+    font-weight: 600;
+  }
+
+  button:hover {
+    background-color: #ffee58;
+  }
+  /* Modificações */
+  .container form {
+    padding: 0 20px; /* Adiciona espaço entre os inputs e as bordas do shape */
+  }
+
+  label[for="name"],
+  label[for="message"] {
+    font-weight: bold;
+    color: #f0f0f0;
+  }
+
+  textarea,
+  input[type="text"] {
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  #home {
+    min-height: 100%;
+    padding-top: 0px;
+  }
+  #banner,
+  #banner img {
+    display: none;
+  }
+  .shape {
+    display: none;
+  }
+  #cta {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  #phone_button button {
+    display: none;
+  }
+}
+
+#content-main {
+  padding: 20px;
+  margin-top: 40vh;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  font-size: 3rem;
+}
+
+.section-subtitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 15px;
+  font-size: 1.8rem;
+}
+
+.muay-thai {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 100px; /* Espaçamento entre os blocos */
+}
+
+.muay-thai img {
+  max-width: 500px; /* Largura máxima da imagem */
+  margin-right: 20px;
+  padding-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.muay-thai .text {
+  padding: 30px; /* Ocupa o espaço restante */
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.square-muaythai {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 195vh; /* Tamanho do quadrado */
+  height: 55vh; /* Tamanho do quadrado */
+  background-color: #f5f5f5; /* Cor do quadrado com transparência */
+  border-radius: 20px;
+}
+
+.muay-thai {
+  position: relative;
+  z-index: 1; /* Para manter o conteúdo na frente do quadrado */
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  padding: 20px;
+}
+
+.muay-thai img {
+  max-width: 500px;
+  height: auto;
+}
+
+.text {
+  color: white;
+}
+
+.section-subtitle {
+  margin-bottom: 10px;
+}
+
+#text-luta {
+  margin: 0;
+  flex: 1;
+  color: black;
+  font-size: 1.3rem;
+  text-align: justify;
+  letter-spacing: 1;
+  line-height: 2;
+  justify-content: center;
+}
+
+.capoeira {
+  display: flex;
+  flex-direction: row-reverse; /* Inverte a ordem dos elementos */
+  align-items: center;
+  margin-bottom: 20px;
+  padding-right: 100px; /* Espaçamento entre os blocos */
+}
+
+.capoeira img {
+  max-width: 100%; /* Largura máxima da imagem */
+}
+
+.capoeira .text-cap {
+  flex: 1; /* Ocupa o espaço restante */
+  text-align: justify;
+}
+
+#text-cap {
+  margin: 0;
+  flex: 1;
+  color: black;
+  font-size: 1.3rem;
+  padding-right: 50px;
+  letter-spacing: 1;
+  line-height: 2;
+  padding: 30px; /* Remover margens padrão do parágrafo */
+}
+
+.container-capoeira {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.square-capoeira {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 195vh; /* Tamanho do quadrado */
+  height: 60vh; /* Tamanho do quadrado */
+  background-color: #f5f5f5;
+  border-radius: 20px; /* Cor do quadrado */
+}
+
+.capoeira {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.capoeira img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* adicionar responsividade ate media query */
+
+.musculacao {
+  display: flex;
+  flex-direction: row-reverse; /* Inverte a ordem dos elementos */
+  align-items: center;
+  margin-bottom: 20px;
+  padding-right: 100px; /* Espaçamento entre os blocos */
+}
+
+.musculacao img {
+  max-width: 500px;
+  padding: 20px; /* Largura máxima da imagem */
+}
+
+.musculacao .text {
+  flex: 1; /* Ocupa o espaço restante */
+  text-align: justify;
+  margin: 0;
+  justify-content: left;
+}
+
+#text-musculacao {
+  margin: 0;
+  flex: 1;
+  color: black;
+  font-size: 1.3rem;
+  padding-right: 150px;
+  letter-spacing: 1;
+  line-height: 2;
+}
+
+.container-musculacao {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.musculacao {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* funcional */
+.funcional {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 100px; /* Espaçamento entre os blocos */
+}
+
+.funcional img {
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+.funcional .text {
+  flex: 1; /* Ocupa o espaço restante */
+  text-align: justify;
+}
+
+#text-funcional {
+  margin: 0;
+  flex: 1;
+  color: black;
+  font-size: 1.3rem;
+  padding-left: 0; /* Remover o padding-left */
+  padding-right: 90px; /* Adicionar um padding-right para preencher o espaço vago */
+  letter-spacing: 1;
+  line-height: 2;
+  padding: 30px; /* Remover margens padrão do parágrafo */
+}
+
+.container-funcional {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 195vh; /* Tamanho do quadrado */
+  height: 50vh; /* Tamanho do quadrado */
+  background-color: #f5f5f5;
+  border-radius: 20px; /* Cor do quadrado */
+}
+
+.funcional {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (max-width: 1170px) {
+  .muay-thai,
+  .capoeira,
+  .musculacao,
+  .funcional {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Adiciona um fundo branco */
+    margin-bottom: 20px;
+    border-radius: 10px; /* Adiciona um leve arredondamento */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+  }
+
+  .muay-thai img,
+  .capoeira img,
+  .musculacao img,
+  .funcional img {
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  #text-luta,
+  #text-cap,
+  #text-musculacao,
+  #text-funcional {
+    margin: 0;
+    color: black;
+    font-size: 1.3rem;
+    line-height: 2;
+    text-align: justify; /* Alinha o texto justificado */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .square,
+  .square-capoeira,
+  .square-musculacao,
+  .square-muaythai,
+  .square-funcional {
+    display: none;
+  }
+
+  #phone_button button {
+    display: none;
+  }
+
+  #text-luta,
+  #text-cap,
+  #text-musculacao,
+  #text-funcional {
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 5px;
+  }
+}

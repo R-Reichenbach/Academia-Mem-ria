@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/icon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Academia Memoria</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-dumbbell" id="nav_logo"> Academia Memoria </i>
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#content-main">Aulas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer">Contatos</a>
+          </li>
+        </ul>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#content-main">Aulas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer">Contatos</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="#home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">Transforme Seu Corpo!</h1>
+
+          <p class="description">
+            Descubra a Excelência: Academia especializada em Musculação, Capoeira
+            e muito mais!
+          </p>
+          <div id="cta_buttons">
+            <a href="#content-main" class="btn-default"> Saiba Mais </a>
+            <a href="tel:+5518991099697" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (18) 99800-0585
+            </a>
+          </div>
+          <div class="social-media-buttons">
+            <a href="https://api.whatsapp.com/send?phone=5518998000585">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/academia.memoria/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/AcademiaMemoria2018">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="forms">
+        <div class="shape">
+          <h1>Envie uma Mensagem para Nós</h1>
+          <form id="contactForm">
+            <label for="name">Nome:</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="message">Mensagem:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="EX: Gostaria de fazer um orçamento!"
+            ></textarea
+            ><br />
+            <button type="submit">
+              Enviar
+              <i class="fa-brands fa-whatsapp"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+      <section id="content-main">
+        <h1 class="section-title">Descubra Nossas Aulas de Lutas!</h1>
+        <h2 class="section-subtitle">Capoeira</h2>
+        <div id="modalidades">
+          <div class="container">
+            <div class="square-capoeira"></div>
+            <div class="capoeira">
+              <img src="image/logo-cap.png" alt="" />
+              <div class="text-cap">
+                <p id="text-cap">
+                  A Capoeira é uma arte marcial brasileira que combina elementos de dança, música e acrobacias. 
+                  Originária da cultura afro-brasileira, a Capoeira tem uma história rica e é praticada em todo o mundo. 
+                  Conhecida por seus movimentos fluidos e ritmados, a Capoeira é mais do que apenas uma forma de luta - 
+                  é uma expressão cultural que promove a união, a autoexpressão e a inclusão social. Ao praticar Capoeira, 
+                  os participantes desenvolvem não apenas habilidades físicas, mas também aprendem sobre a história e a cultura 
+                  do Brasil e da diáspora africana.
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2 class="section-subtitle">Muay Thai</h2>
+          <div class="container-capoeira">
+            <div class="square-muaythai"></div>
+            <div class="muay-thai">
+              <img src="image/muaythai-image.jpg"/>
+              <div class="text">
+                <p id="text-luta">
+                  O Muay Thai, também conhecido como Boxe Tailandês, é uma arte
+                  marcial originária da Tailândia que se destaca por sua
+                  eficiência e versatilidade. É conhecido como a "arte das oito
+                  armas", pois os praticantes podem usar os punhos, cotovelos,
+                  joelhos e pernas para atacar e defender. Além de ser um
+                  excelente método de autodefesa, o Muay Thai também proporciona
+                  inúmeros benefícios físicos e mentais.
+                </p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="musculacao">
+        <h2 class="section-subtitle">Musculação</h2>
+        <div class="container-musculacao">
+            <div class="square"></div>
+            <div class="musculacao">
+                <img src="image/musc-img.jpeg" alt="Imagem de Musculação">
+                <div class="text">
+                    <p id="text-musculacao">
+                        A musculação é uma forma de exercício resistido, com diversas finalidades, 
+                        que pode ser praticada em academias, ginásios ou até mesmo em casa. Ela tem
+                        como objetivo principal o desenvolvimento e a tonificação dos músculos do corpo, 
+                        além de contribuir para a melhoria da saúde e da qualidade de vida. A prática regular 
+                        de musculação também pode auxiliar na prevenção de lesões e no aumento da resistência física.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="funcional">
+      <h2 class="section-subtitle">Funcional</h2>
+      <div class="container-funcional">
+          <div class="square"></div>
+          <div class="funcional">
+              <img src="image/funcional-image.jpg" alt="Imagem de Funcional">
+              <div class="text">
+                  <p id="text-funcional">
+                      O treinamento funcional é um método de exercício físico que busca desenvolver
+                       habilidades específicas para melhorar o desempenho em atividades cotidianas.
+                        Ele se baseia em movimentos naturais do corpo, como agachar, pular, empurrar
+                         e puxar, e utiliza acessórios simples, como elásticos e bolas, para promover
+                          a melhoria da força, flexibilidade, equilíbrio e coordenação motora.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+    <footer>
+
+      <div class="container-footer">
+        <div id="footer">
+          <h3>ACADEMIA MEMÓRIA</h3>
+          <p>Academia Memória - Transformando vidas. Descubra o melhor de você conosco!</p>
+          
+        </div>
+        <div>
+          <h3>Onde estamos?</h3>
+          <p>Av. Nelson Calixto, 343 - Novo Parque São Vicente, Birigui-SP</p>
+        </div>
+        <div>
+          <h3>Contate-nos</h3>
+          <p>Telefone: +55 1899800-0585</p>
+          <p>Email: academia.memoria@gmail.com</p>
+          <p>Endereço: Brasil</p>
+        </div>
+        <div>
+          <p>&copy; 2024 Academia Memória. Todos os direitos reservados.</p>
+          <p>Desenvolvido por Rafael Reichenbach</p>
+          <div class="social-medias">
+            <a href="https://www.facebook.com/AcademiaMemoria2018"><img src="image/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/academia.memoria/"><img src="image/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://api.whatsapp.com/send?phone=5518998000585"><img src="image/whatsapp-icon.png" alt="WhatsApp"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
