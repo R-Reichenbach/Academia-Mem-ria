@@ -48,7 +48,7 @@
 }
 
 .shape {
-  background-color: #333333;
+  background-color: #1a1a1a;
   width: 25%;
   height: 40%;
   position: absolute;
@@ -124,6 +124,25 @@
 }
 
 @media screen and (max-width: 1170px) {
+  #home {
+    min-height: 100%;
+    padding-top: 0px;
+  }
+  #banner,
+  #banner img {
+    display: none;
+  }
+  .shape {
+    display: none;
+  }
+  #cta {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1366px) {
   #home {
     min-height: 100%;
     padding-top: 0px;
@@ -430,13 +449,30 @@
   }
 }
 
+@media screen and (max-width: 1366px) {
+  .muay-thai img,
+  .capoeira img,
+  .musculacao img,
+  .funcional img {
+    max-width: 40%; /* Altere o valor conforme necessário */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .square{
+    margin: auto;
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .square,
   .square-capoeira,
   .square-musculacao,
   .square-muaythai,
   .square-funcional {
-    display: none;
+    display: none !important;
   }
 
   #phone_button button {
@@ -450,125 +486,5 @@
     font-size: 17px;
     line-height: 1.5;
     padding: 5px;
-  }
-}
-
-
-
-/* novos medias querys */
-
-
-
-@media screen and (max-width: 1024px) {
-  /* Estilos para tablets em modo paisagem */
-  #cta {
-    width: 70%;
-    margin-top: 10%;
-  }
-
-  #cta .title {
-    font-size: 3rem;
-  }
-
-  #cta .description {
-    font-size: 1rem;
-  }
-  #square {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  /* Estilos para tablets em modo retrato */
-  #cta {
-    width: 80%;
-    margin-top: 10%;
-  }
-
-  #cta .title {
-    font-size: 2.5rem;
-  }
-
-  #cta .description {
-    font-size: 0.8rem;
-  }
-  #square {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* Estilos para smartphones em modo paisagem */
-  #cta {
-    width: 90%;
-    margin-top: 10%;
-  }
-
-  #cta .title {
-    font-size: 2rem;
-  }
-
-  #cta .description {
-    font-size: 0.7rem;
-  }
-  #square {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  /* Estilos para smartphones em modo retrato */
-  #cta {
-    width: 95%;
-    margin-top: 10%;
-  }
-
-  #cta .title {
-    font-size: 1.5rem;
-  }
-
-  #cta .description {
-    font-size: 0.6rem;
-  }
-  #square {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1366px) {
-  /* Estilos para telas de desktop e laptops */
-  #cta {
-    width: 35%;
-    margin-top: 5%;
-  }
-
-  #cta .title {
-    font-size: 4rem;
-  }
-
-  #cta .description {
-    font-size: 1.2rem;
-  }
-  #square {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  /* Estilos para telas de desktop e laptops maiores */
-  #cta {
-    width: 30%;
-    margin-top: 5%;
-  }
-
-  #cta .title {
-    font-size: 4.5rem;
-  }
-
-  #cta .description {
-    font-size: 1.5rem;
-  }
-  #square {
-    display: block;
   }
 }
