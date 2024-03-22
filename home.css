@@ -460,7 +460,11 @@
     border-radius: 10px;
     margin: auto;
   }
-  .square{
+  .square,
+  .square-capoeira,
+  .square-musculacao,
+  .square-muaythai,
+  .square-funcional {
     margin: auto;
     height: auto;
     width: auto;
