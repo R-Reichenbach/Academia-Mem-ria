@@ -458,14 +458,14 @@
     border-radius: 10px;
     margin: auto;
   }
-  .muay-thai img{
-    max-width: 30%; /* Altere o valor conforme necessário */
+  .muay-thai img {
+    max-width: 50%; /* Altere o valor conforme necessário */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     margin: auto;
   }
-  .capoeira img{
+  .capoeira img {
     max-width: 27%; /* Altere o valor conforme necessário */
     padding: 20px;
     margin-bottom: 20px;
@@ -494,6 +494,14 @@
 
   #phone_button button {
     display: none;
+  }
+
+  .muay-thai img,
+  .capoeira img,
+  .musculacao img,
+  .funcional img {
+    max-width: 100%;
+    height: auto;
   }
 
   #text-luta,
