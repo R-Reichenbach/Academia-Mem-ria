@@ -466,8 +466,7 @@
   .square-muaythai,
   .square-funcional {
     margin: auto;
-    height: auto;
-    width: auto;
+    height: 150px;
     padding: 20px;
   }
 }
