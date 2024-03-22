@@ -462,7 +462,8 @@
   }
   .square{
     margin: auto;
-    max-width: 80%;
+    height: auto;
+    width: auto;
     padding: 20px;
   }
 }
