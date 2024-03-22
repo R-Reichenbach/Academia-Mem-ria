@@ -454,7 +454,7 @@
   .capoeira img,
   .musculacao img,
   .funcional img {
-    max-width: 20%; /* Altere o valor conforme necessário */
+    max-width: 35%; /* Altere o valor conforme necessário */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
