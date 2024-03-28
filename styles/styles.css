@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 html {
@@ -218,9 +219,8 @@ footer .social-medias {
 }
 @media screen and (max-width: 450px) {
   body {
+     max-width: 100%;
     overflow-x: hidden;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
   }
 }
 
