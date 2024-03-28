@@ -218,7 +218,7 @@ footer .social-medias {
 
 @media screen and (max-width: 450px) {
   body {
-    background-size: auto 100%;
+    background-size: 100% 100%;
   }
 }
 
