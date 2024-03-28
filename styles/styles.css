@@ -216,6 +216,11 @@ footer .social-medias {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background-color: white;
 }
+@media screen and (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 
 /* TESTE MEDIA QUERY PARA CARROSSEL */
 @media screen and (max-width: 450px) {
