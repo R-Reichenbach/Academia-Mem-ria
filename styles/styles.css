@@ -220,6 +220,7 @@ footer .social-medias {
   body {
     overflow-x: hidden;
     background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 
