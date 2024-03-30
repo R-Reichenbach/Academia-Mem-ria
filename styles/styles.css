@@ -13,8 +13,6 @@ html {
 body {
   background-color: #333333;
   background-image: url("../image/background.jpeg");
-  background-size: cover;
-  overflow-x: hidden;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -216,15 +214,6 @@ footer .social-medias {
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background-color: white;
-}
-@media screen and (max-width: 450px) {
-  body {
-    overflow-x: hidden;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin-right: 0;
-    margin-left: 0;
-  }
 }
 
 /* TESTE MEDIA QUERY PARA CARROSSEL */
