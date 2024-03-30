@@ -245,7 +245,12 @@ footer .social-medias {
 
   .manual-navigation,
   .navigation-auto {
-    padding-right: 470px;
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
   }
 }
 
