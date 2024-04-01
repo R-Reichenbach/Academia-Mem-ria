@@ -179,6 +179,23 @@ footer .social-medias {
   margin-left: -75%;
 }
 
+
+#radio5:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio6:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio7:checked ~ .first {
+  margin-left: -50%;
+}
+
+#radio8:checked ~ .first {
+  margin-left: -75%;
+}
+
 .navigation-auto div {
   border: 2px solid #ffed55;
   padding: 5px;
@@ -215,6 +232,21 @@ footer .social-medias {
   background-color: white;
 }
 
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background-color: white;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6 {
+  background-color: white;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7 {
+  background-color: white;
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn8 {
+  background-color: white;
+}
 /* TESTE MEDIA QUERY PARA CARROSSEL */
 @media screen and (max-width: 450px) {
   .slider {
@@ -254,6 +286,7 @@ footer .social-medias {
   justify-content: center;
   }
 }
+
 
 /* FINAL DO TESTE */
 
