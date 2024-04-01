@@ -52,39 +52,6 @@ function nextImage2() {
 
 
 
-// let count = 1;
-// document.getElementById("radio1").checked = true;
-
-// setInterval(function () {
-//   nextImage();
-// }, 3000);
-
-// function nextImage() {
-//   count++;
-//   if (count > 4) {
-//     count = 1;
-//   }
-
-//   document.getElementById("radio" + count).checked = true;
-// }
-
-// let count2 = 1;
-// document.getElementById("radio5").checked = true;
-
-// setInterval(function () {
-//   nextImage2();
-// }, 3000);
-
-// function nextImage2() {
-//   count2++;
-//   if (count2 > 8) {
-//     count2 = 4;
-//   }
-
-//   document.getElementById("radio" + (count2 + 4)).checked = true;
-// }
-
-
 
 
 
